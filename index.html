@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>دعوتنا المميزة</title>
+ <style>
+ :root {
+ --primary-color: #d4af37;
+ --secondary-color: #333333;
+ --background-color: #fcf8f2;
+ --text-color: #333333;
+ --accent-color: #f7e1b5;
+ }
+
+ body {
+ margin: 0;
+ padding: 0;
+ font-family: 'Amiri', serif;
+ background-color: var(--background-color);
+ color: var(--text-color);
+ text-align: center;
+ overflow-x: hidden;
+ }
+
+ .container {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 50px 20px;
+ background: linear-gradient(135deg, rgba(252, 248, 242, 1) 0%, rgba(247, 225, 181, 0.1) 100%);
+ border: 2px solid var(--primary-color);
+ border-radius: 20px;
+ box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+ }
+
+ header {
+ margin-bottom: 40px;
+ animation: fadeIn 2s ease-in-out;
+ }
+
+ .bismillah {
+ font-size: 2rem;
+ color: var(--primary-color);
+ margin-bottom: 20px;
+ display: block;
+ }
+
+ h1 {
+ font-size: 3rem;
+ color: var(--secondary-color);
+ margin: 10px 0;
+ font-weight: bold;
+ }
+
+ .invitation-text {
+ font-size: 1.5rem;
+ line-height: 1.8;
+ margin-bottom: 30px;
+ }
+
+ .names {
+ font-size: 3.5rem;
+ color: var(--primary-color);
+ margin: 20px 0;
+ text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+ }
+
+ .date-location {
+ background-color: rgba(255, 255, 255, 0.5);
+ padding: 30px;
+ border-radius: 15px;
+ margin-bottom: 30px;
+ }
+
+ .date {
+ font-size: 2rem;
+ color: var(--secondary-color);
+ margin-bottom: 10px;
+ display: block;
+ }
+
+ .time {
+ font-size: 1.3rem;
+ color: var(--text-color);
+ margin-bottom: 15px;
+ display: block;
+ }
+
+ .location {
+ font-size: 1.5rem;
+ color: var(--primary-color);
+ font-weight: bold;
+ display: block;
+ }
+
+ footer {
+ font-size: 1.2rem;
+ color: var(--secondary-color);
+ margin-top: 40px;
+ padding-top: 20px;
+ border-top: 1px solid var(--primary-color);
+ animation: fadeIn 3s ease-in-out;
+ }
+
+ /* Heart animation */
+ .heart {
+ color: #ff4d4d;
+ font-size: 2rem;
+ animation: pulse 1.5s infinite;
+ display: inline-block;
+ margin: 0 10px;
+ }
+
+ @keyframes pulse {
+ 0% { transform: scale(1); }
+ 50% { transform: scale(1.2); }
+ 100% { transform: scale(1); }
+ }
+
+ @keyframes fadeIn {
+ from { opacity: 0; transform: translateY(20px); }
+ to { opacity: 1; transform: translateY(0); }
+ }
+
+ /* Responsive Design */
+ @media (max-width: 600px) {
+ h1 { font-size: 2.5rem; }
+ .names { font-size: 2.8rem; }
+ .date { font-size: 1.6rem; }
+ .invitation-text { font-size: 1.2rem; }
+ }
+ </style>
+</head>
+<body>
+
+ <div class="container">
+ <header>
+ <span class="bismillah">بسم الله الرحمن الرحيم</span>
+ <h1>دعوة زفاف</h1>
+ </header>
+
+ <section>
+ <p class="invitation-text">
+ بكل الحب والمودة، يتشرف
+ <br>
+ <strong>عائلة العريس</strong>
+ <br>
+ <strong>وعائلة العروس</strong>
+ <br>
+ بدعوتكم لمشاركتنا فرحتنا الغامرة في ليلة العمر
+ </p>
+
+ <div class="names">
+ اسم العريس <br> <span class="heart">&hearts;</span> <br> اسم العروس
+ </div>
+
+ <div class="date-location">
+ <span class="date">يوم السبت، الموافق 5 سبتمبر 2026</span>
+ <span class="time">في تمام الساعة 8:00 مساءً</span>
+ <br>
+ <span class="location">القاعة الملكية، الزقازيق</span>
+ </div>
+ </section>
+
+ <footer>
+ <p>حضوركم يشرفنا ويزيدنا فرحاً</p>
+ <p>بانتظاركم لتكتمل ليلتنا</p>
+ </footer>
+ </div>
+
+ <script>
+ // إضافة بعض الحركات البسيطة عند تحميل الصفحة
+ document.addEventListener('DOMContentLoaded', () => {
+ console.log("تم تحميل دعوة الزفاف بنجاح!");
+ // يمكن إضافة تأثيرات تفاعلية أخرى هنا في المستقبل
+ });
+ </script>
+
+</body>
+</html>
+
+جاهز عشان تجربه على جهازك؟
